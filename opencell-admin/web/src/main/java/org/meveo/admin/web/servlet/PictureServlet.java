@@ -34,6 +34,9 @@ import org.meveo.service.catalog.impl.ServiceTemplateService;
 import org.meveo.service.crm.impl.ProviderService;
 import org.meveo.util.ApplicationProvider;
 
+
+//test jenkins
+
 /**
  * Show a picture from a rest URI like /meveo/picture/provider/module/tmp/filename.suffix
  * or  /meveo/picture/provider/offerCategory/offerCategoryCode
