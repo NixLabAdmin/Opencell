@@ -35,7 +35,7 @@ import org.meveo.service.crm.impl.ProviderService;
 import org.meveo.util.ApplicationProvider;
 
 
-//test jenkins
+//test jenkins 2
 
 /**
  * Show a picture from a rest URI like /meveo/picture/provider/module/tmp/filename.suffix

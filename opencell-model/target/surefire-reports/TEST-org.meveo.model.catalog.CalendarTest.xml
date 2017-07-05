@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.meveo.model.catalog.CalendarTest" time="0.19" tests="34" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.131-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/root/workspace/meveo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/root/workspace/meveo"/>
+    <property name="java.runtime.version" value="1.8.0_131-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/root/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2696250550987214010.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.10.0-514.21.1.el7.x86_64"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/opt/eclipse/jee-neon/eclipse/../../../../root/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-3.b12.el7_3.x86_64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/root/workspace/meveo/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testSimpleWeekdayIntervalCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0.029"/>
+  <testcase name="testUnionNextPreviousCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0.025"/>
+  <testcase name="testHourCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testOnePeriodInSecondCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0.031"/>
+  <testcase name="testCrossWeekdayIntervalCalendarNextPreviousPeriod" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testYearCalendar2" classname="org.meveo.model.catalog.CalendarTest" time="0.034"/>
+  <testcase name="testSimpleHourIntervalCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testHourCalendar2" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testSimpleWeekdayIntervalCalendarNextPreviousPeriod" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testfullWeekdayIntervalCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testZeroPeriodInMonthCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testFullDayIntervalCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0.032"/>
+  <testcase name="testFullDayIntervalCalendar2" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testFullHourIntervalCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testSimpleDayIntervalCalendarNextPreviousPeriod" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testCrossHourIntervalCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testSimpleHourIntervalCalendarNextPreviousPeriod" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testMultiPeriodInMonthCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testCrossHourIntervalCalendarNextPreviousPeriod" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testCrossDayIntervalCalendarNextPreviousPeriod" classname="org.meveo.model.catalog.CalendarTest" time="0.039"/>
+  <testcase name="testOnePeriodInMinuteCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testYearCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testOnePeriodInHourCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testCrossDayIntervalCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testZeroHourIntervalCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testIntersectCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testMultiPeriodInMinuteCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testFullHourIntervalCalendar2" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testOnePeriodInDaysCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testfullWeekdayIntervalCalendar2" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testUnionCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testOnePeriodInMonthCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testSimpleDayIntervalCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+  <testcase name="testCrossWeekdayIntervalCalendar" classname="org.meveo.model.catalog.CalendarTest" time="0"/>
+</testsuite>
