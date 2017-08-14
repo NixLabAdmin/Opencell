@@ -1,8 +1,8 @@
-org/meveo/service/filter/BaseFilterTest.class
-org/meveo/service/filter/FilteredQueryBuilderTest.class
-org/meveo/service/filter/FilterXmlGenerator.class
-org/meveo/test/csv/CsvTest.class
-org/meveo/test/GenerateImportXml.class
-org/meveo/export/ExportTest.class
-org/meveo/test/RatedCDRgenerator.class
-org/meveo/service/crm/impl/CFValueTest.class
+org\meveo\export\ExportTest.class
+org\meveo\test\csv\CsvTest.class
+org\meveo\service\filter\FilteredQueryBuilderTest.class
+org\meveo\service\filter\BaseFilterTest.class
+org\meveo\service\filter\FilterXmlGenerator.class
+org\meveo\test\GenerateImportXml.class
+org\meveo\test\RatedCDRgenerator.class
+org\meveo\service\crm\impl\CFValueTest.class

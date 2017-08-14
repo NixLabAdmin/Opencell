@@ -1,0 +1,6 @@
+projectKey=java-sonar-runner-opencell
+serverUrl=http://nixlabtools1:9090/sonar
+serverVersion=6.4.0.25310
+dashboardUrl=http://nixlabtools1:9090/sonar/dashboard/index/java-sonar-runner-opencell
+ceTaskId=AV3RVDI3891iudl7EjMf
+ceTaskUrl=http://nixlabtools1:9090/sonar/api/ce/task?id=AV3RVDI3891iudl7EjMf

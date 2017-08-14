@@ -5,7 +5,7 @@
 	<persistence-unit name="MeveoAdmin">
 		<jta-data-source>java:jboss/datasources/MeveoAdminDatasource</jta-data-source>
 		<!-- <jta-data-source>java:jboss/datasources/MeveoAdminMariaDBDatasource</jta-data-source> -->
-		<jar-file>lib/opencell-model-4.5.jar</jar-file>
+		<jar-file>lib/opencell-model-4.5.1.jar</jar-file>
 		<properties>
 			<property name="hibernate.archive.autodetection" value="class" />
 			<property name="hibernate.hbm2ddl.auto" value="validate" /> <!-- DB structure is managed by liquibase, not hibernate -->

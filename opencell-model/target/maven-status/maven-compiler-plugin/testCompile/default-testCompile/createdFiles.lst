@@ -1,5 +1,5 @@
-org/meveo/model/DateUtilsTest.class
-org/meveo/model/billing/TIPTest.class
-org/meveo/model/export/ExportTest.class
-org/meveo/model/BeforeDBTest.class
-org/meveo/model/catalog/CalendarTest.class
+org\meveo\model\DateUtilsTest.class
+org\meveo\model\billing\TIPTest.class
+org\meveo\model\BeforeDBTest.class
+org\meveo\model\export\ExportTest.class
+org\meveo\model\catalog\CalendarTest.class
