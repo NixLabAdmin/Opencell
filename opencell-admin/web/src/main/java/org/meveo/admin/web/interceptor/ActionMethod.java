@@ -8,6 +8,8 @@ import java.lang.annotation.Target;
 
 import javax.interceptor.InterceptorBinding;
 
+//testtest
+
 @Inherited
 @InterceptorBinding
 @Retention(RetentionPolicy.RUNTIME)
