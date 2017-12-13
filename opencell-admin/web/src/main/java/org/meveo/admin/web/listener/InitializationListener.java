@@ -14,6 +14,8 @@ import org.meveo.util.view.PagePermission;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+//test
+
 @WebListener
 public class InitializationListener implements ServletContextListener {
 
