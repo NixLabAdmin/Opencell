@@ -20,4 +20,11 @@ node {
       junit '**/target/surefire-reports/TEST-*.xml'
       archive 'target/*.jar'
    }
+   
+   stage('SonarQube analysis') {
+    def scannerHome = tool 'SonarQube Scanner NiXLabTOOLS1';
+    withSonarQubeEnv('SonarQube 6.4') {
+    bat "${scannerHome}/bin/linux-x86-64/sonar.sh"   
+  }
+}
 }
