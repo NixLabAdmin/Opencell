@@ -23,7 +23,7 @@ node {
    
    stage('SonarQube analysis') {
     def scannerHome = tool 'SonarQube Scanner NiXLabTOOLS1';
-    withSonarQubeEnv('SonarQube 6.4') {
+    withSonarQubeEnv('SonarQube Scanner 3.0.3.778') {
     bat "${scannerHome}/bin/linux-x86-64/sonar.sh"   
   }
 }
