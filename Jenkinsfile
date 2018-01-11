@@ -25,7 +25,7 @@ node {
 	//git 'https://github.com/NixLabAdmin/Opencell.git/'
     def scannerHome = tool 'SonarQube Scanner NiXLabTOOLS1';
     withSonarQubeEnv('SonarServer-NixLabTOOLS1') {
-    sh "${scannerHome}/bin/sonar-scanner"
+    sh "${scannerHome}/bin/sonar-scanner -X"
   }
 }
 }
