@@ -4,7 +4,7 @@ node {
    def mvnHome
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
-      git 'https://github.com/NixLabAdmin/Opencell.git/'
+      git branch: 'VSPE_Jenkins_PaC', url: 'https://github.com/NixLabAdmin/Opencell.git/'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
@@ -26,7 +26,6 @@ node {
    stage('SonarQube analysis') {
 	//git 'https://github.com/NixLabAdmin/Opencell.git/'
 	ws('/var/lib/jenkins/workspace/branch_PaC_Sonnar'){
-		git 'https://github.com/NixLabAdmin/Opencell.git/'
 		def scannerHome = tool 'SonarQube Scanner NiXLabTOOLS1';
 		withSonarQubeEnv('SonarServer-NixLabTOOLS1') {
 		sh "${scannerHome}/bin/sonar-scanner -X"
