@@ -21,8 +21,7 @@ node {
    stage('Results') {
       junit '**/target/surefire-reports/TEST-*.xml'
       archive 'target/*.jar'
-   }
-   
+   }   
    stage('SonarQube analysis') {
 	//git 'https://github.com/NixLabAdmin/Opencell.git/'
 	ws('/var/lib/jenkins/workspace/branch_PaC_Sonnar'){
@@ -31,5 +30,4 @@ node {
 		sh "${scannerHome}/bin/sonar-scanner -X"
 		}
 	}
-}
 }
