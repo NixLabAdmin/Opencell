@@ -23,7 +23,6 @@ node {
       archive 'target/*.jar'
    }   
    stage('SonarQube analysis') {
-	//git 'https://github.com/NixLabAdmin/Opencell.git/'
 	ws('/var/lib/jenkins/workspace/branch_PaC_Sonnar'){
 		def scannerHome = tool 'SonarQube Scanner NiXLabTOOLS1';
 		withSonarQubeEnv('SonarServer-NixLabTOOLS1') {
