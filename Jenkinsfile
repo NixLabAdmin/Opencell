@@ -9,7 +9,7 @@ node {
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
       mvnHome = tool 'Maven 3.5.0'
-	  sh 'll'
+	  sh 'ls -l'
 	  sh 'git log'
    }
    stage('Build') {
