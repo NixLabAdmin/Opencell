@@ -9,6 +9,8 @@ node {
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           
       mvnHome = tool 'Maven 3.5.0'
+	  sh 'll'
+	  sh 'git log'
    }
    stage('Build') {
       // Run the maven build
@@ -25,7 +27,7 @@ node {
    stage('SonarQube analysis') {
 	def scannerHome = tool 'SonarQube Scanner NiXLabTOOLS1';
 	withSonarQubeEnv('SonarServer-NixLabTOOLS1') {
-		sh "${scannerHome}/bin/sonar-scanner -X"
+		sh "${scannerHome}/bin/sonar-scanner"
 		}
 	}
 }
