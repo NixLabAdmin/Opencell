@@ -26,7 +26,8 @@ node {
 	ws('/var/lib/jenkins/workspace/branch_PaC_Sonnar'){
 		def scannerHome = tool 'SonarQube Scanner NiXLabTOOLS1';
 		withSonarQubeEnv('SonarServer-NixLabTOOLS1') {
-		sh "${scannerHome}/bin/sonar-scanner -X"
+			sh "${scannerHome}/bin/sonar-scanner -X"
+			}
 		}
 	}
 }
